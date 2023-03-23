@@ -9,21 +9,21 @@ deb-src https://deb.debian.org/debian stable-updates main contrib non-free
 
 ###
 
-deb https://deb.debian.org/debian testing main contrib non-free
-deb-src https://deb.debian.org/debian testing main contrib non-free
+deb https://deb.debian.org/debian testing main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian testing main contrib non-free non-free-firmware
 
-deb https://deb.debian.org/debian-security testing-security/updates main contrib non-free
-deb-src https://deb.debian.org/debian-security testing-security/updates main contrib non-free
+deb https://deb.debian.org/debian-security testing-security/updates main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian-security testing-security/updates main contrib non-free non-free-firmware
 
-deb https://deb.debian.org/debian testing-updates main contrib non-free
-deb-src https://deb.debian.org/debian testing-updates main contrib non-free
-
-###
-
-deb https://deb.debian.org/debian unstable main contrib non-free
-deb-src https://deb.debian.org/debian unstable main contrib non-free
+deb https://deb.debian.org/debian testing-updates main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian testing-updates main contrib non-free non-free-firmware
 
 ###
 
-deb https://deb.debian.org/debian experimental main contrib non-free
-deb-src https://deb.debian.org/debian experimental main contrib non-free
+deb https://deb.debian.org/debian unstable main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian unstable main contrib non-free non-free-firmware
+
+###
+
+deb https://deb.debian.org/debian experimental main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian experimental main contrib non-free non-free-firmware
